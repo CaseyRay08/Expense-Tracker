@@ -35,7 +35,7 @@ export const App = () => {
 
   const addExpenseHandler = (expense) => {
     setExpenses(prev => [expense, ...prev])
-    console.log(`testing: ${JSON.stringify(expense)}`)
+
   }
 
   return (
